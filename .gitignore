@@ -1,0 +1,17 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Local cache / Kagglehub downloads
+.cache/
+*/.cache/*
+
+# Large model weights (do not track large binaries in Git)
+*.h5
+*.keras
+
+# Python virtual environment & cache
+__pycache__/
+*.pyc
+.env
+venv/
