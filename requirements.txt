@@ -1,0 +1,22 @@
+# Deepfake Detection - Python dependencies
+#
+# Requires Python 3.10 or newer.
+# These are the same packages the README documents in its environment
+# installation step, recorded here as a manifest so the environment can be
+# reproduced with a single command:
+#
+#     pip install -r requirements.txt
+#
+# tensorflow       classifier and Conv2D architecture in the notebook
+# opencv-python    image decoding and frame handling
+# matplotlib       plotting of the training curves
+# scikit-learn     metric computation and the train/test split
+# kagglehub        dataset retrieval for the original dataset
+# numpy            array maths throughout the pipeline
+
+tensorflow
+opencv-python
+matplotlib
+scikit-learn
+kagglehub
+numpy

@@ -29,7 +29,7 @@ A state-of-the-art Deepfake Image Detection pipeline built using TensorFlow/Kera
 ### 1. Environment Installation
 Ensure you have Python 3.10+ installed. Open your terminal or Conda command prompt and run:
 ```bash
-pip install tensorflow opencv-python matplotlib scikit-learn kagglehub numpy
+pip install -r requirements.txt
 ```
 
 ### 2. Model Training & Fine-Tuning
