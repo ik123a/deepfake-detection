@@ -20,7 +20,7 @@ def main():
 
     # 2. Look for the trained model file
     model_name = "deepfake_detector.h5"
-    downloads_dir = r"C:\Users\SKV\Downloads"
+    downloads_dir = os.path.join(os.path.expanduser("~"), "Downloads")
     model_path = os.path.join(downloads_dir, model_name)
     
     if not os.path.exists(model_path):
